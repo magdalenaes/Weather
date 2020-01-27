@@ -1,0 +1,29 @@
+.result {
+    padding-top: 20px;
+    text-align: center; 
+    font-size: 30px;
+}
+
+@media (min-width: 320px) {
+    .result {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 410px) {
+    .result {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .result {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:1000px) {
+    .result {
+        font-size: 30px;
+    }
+}

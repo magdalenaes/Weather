@@ -1,0 +1,31 @@
+.App {
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 100vh;
+  text-align: center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background: url("../assets/clouds.jpg") no-repeat;
+  background-size: cover;
+}
+
+.App input, .App button {
+  margin: 30px auto;
+  padding: 1rem 2rem;
+  border: 5px solid #fff;
+  transition: 0.3s;
+  background-color: #fff;
+  font-size: 18px;
+  display: block;
+}
+
+.App button {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.App button:hover {
+  background-color: rgb(78, 159, 189);
+  color: white;
+  border-color: #fff;
+}
